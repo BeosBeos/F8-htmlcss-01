@@ -12,10 +12,14 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /* Comon */
+a {
+    text-decoration: none;
+}
+
 .content {
     width: 1110px;
     max-width: calc(100% - 48px);
@@ -23,9 +27,6 @@ body {
     margin-right: auto;
 }
 
-a {
-    text-decoration: none;
-}
 
 .btn {
     display: inline-block;
@@ -114,7 +115,7 @@ a {
 .hero .title {
     margin-top: 8px;
     font-weight: 700;
-    font-size: 6.4rem;
+    font-size: 6.2rem;
     line-height: 1.19;
     color: #000336;
 }
@@ -127,7 +128,7 @@ a {
     color: #5A6473;
 }
 
-.hero .hero-cta {
+.hero-cta {
     margin-top: 40px;
     min-width: 170px;
 }
@@ -141,6 +142,7 @@ a {
 /* =========== Clients =========== */
 .clients {
     margin-top: 122px;
+    padding: 43px 0 64px;
 }
 
 .clients .row {
@@ -168,7 +170,8 @@ a {
 
 /* =========== Guides =========== */
 .guides {
-    margin-top: 200px;
+    margin-top: 40px;
+    padding: 93px 0 79px;
 }
 
 .guides .sub-title {
@@ -228,7 +231,6 @@ a {
     margin-top: 10px;
     font-weight: 600;
     font-size: 1.4rem;
-    text-align: center;
     color: #0689FF;
 }
 
@@ -236,19 +238,19 @@ a {
     margin-right: 6px;
 }
 
-.guides-cta {
+.guide-cta {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.guides-cta .btn {
+.guide-cta .btn {
     min-width: 170px;
 }
 
 /* =========== Featured =========== */
 .featured {
-    margin-top: 120px;
+    margin-top: 41px;
     padding: 110px 0;
     background: #F5FAFE;
 }
@@ -277,12 +279,12 @@ a {
     display: flex;
     align-items: center;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #0689FF;
 }
 
 .featured .link .arrow {
-    margin-left: 6px;
+    margin-left: 8px;
 }
 
 .featured .list {
@@ -320,6 +322,7 @@ a {
     margin-top: 11px;
     font-weight: 500;
     font-size: 1.4rem;
+    line-height: 1.5;
     color: #A3A6AB;
     word-break: break-all;
 }
@@ -334,7 +337,6 @@ a {
     margin-left: 8px;
     font-weight: 500;
     font-size: 1.4rem;
-    line-height: 1;
     letter-spacing: 0.01em;
     color: #4D4D52;
 }
@@ -392,7 +394,6 @@ a {
     padding: 45px 22px 40px;
     background: #FFFFFF;
     border-radius: 0px 0px 12px 12px;
-    box-shadow: 90px 85px 100px rgba(0, 0, 0, 0.06);
 }
 
 .stats-trend .value {
@@ -406,7 +407,7 @@ a {
     margin-left: auto;
 }
 
-.stats-trend  .desc {
+.stats-trend .desc {
     margin-top: 8px;
     font-weight: 400;
     font-size: 1.2rem;
@@ -415,7 +416,7 @@ a {
 }
 
 .stats-trend .separate {
-    margin-top: 26px;
+    margin-top: 25px;
     height: 1.2px;
     background: #E9E9E9;
 }
@@ -551,7 +552,7 @@ a {
 /* =========== Footer =========== */
 .footer {
     margin-top: 55px;
-    padding: 55px 0 58px;
+    padding: 50px 0 58px;
 }
 
 .footer .row {
@@ -581,7 +582,7 @@ a {
 .footer .item a,
 .footer .desc {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #7A7A7E;
     white-space: nowrap;
 }
